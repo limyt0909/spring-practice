@@ -26,6 +26,8 @@ dependencies {
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+	implementation group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.9.2' // swagger
+	implementation group: 'io.springfox', name: 'springfox-swagger2', version: '2.9.2' //swagger
 }
 
 tasks.named('test') {
